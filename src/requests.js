@@ -1,8 +1,8 @@
-export const loadCollectionRequest = async (collectionName, params) => {
+export const loadCollectionRequest = async () => {
   const xhrRequest = new Promise();
-  const response = await xhrRequest((resolve, reject) => {
+  const response = await xhrRequest((resolve) => {
     resolve({
-      items: []
+      items: [],
     });
   });
   return response.items;

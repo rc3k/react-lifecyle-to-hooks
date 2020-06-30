@@ -1,7 +1,7 @@
 import React from 'react';
-import ComponentDidMountWebAPIHook from "./components/ComponentDidMountWebAPIHook";
-import ComponentDidUpdateWebAPIHook from "./components/ComponentDidUpdateWebAPIHook";
-import ComponentShouldUpdateMemoised from "./components/ComponentShouldUpdateMemoised";
+import ComponentDidMountWebAPIHook from './components/ComponentDidMountWebAPIHook';
+import ComponentDidUpdateWebAPIHook from './components/ComponentDidUpdateWebAPIHook';
+import ComponentShouldUpdateMemoised from './components/ComponentShouldUpdateMemoised';
 
 function App() {
   return (
